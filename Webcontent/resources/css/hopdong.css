@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+.hopdong {
+	margin-top: 40px;
+	padding: 20px;
+	border: 1px solid gray;
+}
+
+.hopdong>h2 {
+	text-align: center;
+}
+
+.hopdong>p {
+	text-align: center;
+}
+
+.cacben {
+	display: flex;
+	justify-content: space-around;
+	border: 1px solid gray;
+	margin-bottom: 40px;
+}
+
+.cacben_left {
+	min-width: 50%;
+	border-right: 1px solid gray;
+	padding: 40px;
+}
+
+.cacben_right {
+	min-width: 50%;
+	padding: 40px;
+}
+
+.kyten {
+	display: flex;
+	flex-direction: column;
+	margin-top: 60px;
+}
+
+.kyten_left {
+	display: flex;
+	justify-content: space-around;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.kyten_right {
+	display: flex;
+	justify-content: space-around;
+	color: red;
+}
